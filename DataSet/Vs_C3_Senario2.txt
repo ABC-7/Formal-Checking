@@ -1,0 +1,3 @@
+inReq([inComp(cond, 'the sailing request', '[True]', 'equals', 'no', 1), inComp(preCondScope, 'the vehicle speed setpoint', '[True]', 'equals', 'no', 1), inComp(act, 'the brake fault state', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  before the vehicle speed setpoint equals [True] ,    if the sailing request equals [True] ,    the brake fault state shall be equaled [True],    .").
+
+inReq([inComp(act, 'the sailing request', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the vehicle speed setpoint', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   after the vehicle speed setpoint equals [True] ,    the sailing request shall be equaled [True],    .").

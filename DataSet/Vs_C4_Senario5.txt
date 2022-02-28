@@ -1,0 +1,5 @@
+inReq([inComp(act, 'the engine error', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the NoSailing requests', '[True]', 'equals', 'no', 1)], ['','','','',''], "-  after the NoSailing requests equals [True] ,     the engine error shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the engine error', '[True]', 'equals', 'no', 1), inComp(actCondScope, 'the transmission error', '[True]', 'equals', 'no', 1), inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  if the engine error equals [True] ,    the NoSailing requests shall be equaled [True],  after the transmission error equals [True] ,      .").
+
+inReq([inComp(cond, 'the transmission error', '[True]', 'equals', 'no', 1), inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-   if the transmission error equals [True] ,    the NoSailing requests shall be equaled [True],    .").

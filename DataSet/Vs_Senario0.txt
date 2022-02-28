@@ -1,0 +1,120 @@
+inReq([inComp(actCondScope, 'the standstill request flag', '[True]', 'equals', 'no', 1), inComp(act, 'the standstill request flag', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the standstill request flag', '[True]', 'equals', 'no', 2)], ['','','','','(1 and 2)'], "-  after the standstill request flag equals [True] ,    the standstill request flag equals [True] ,  before the standstill request flag equals [True] ,        .").
+
+inReq([inComp(actCondScope, 'the steering wheel angle', '[True]', 'equals', 'no', 1), inComp(act, 'the sailing termination', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the steering wheel angle', '[True]', 'equals', 'no', 2)], ['','','','','(1 and 2)'], "-  before the steering wheel angle equals [True] ,   the sailing termination shall be equaled [True],  after the steering wheel angle equals [True] ,        .").
+
+inReq([inComp(actCondScope, 'the defined position', '[True]', 'equals', 'no', 1), inComp(act, 'the sailing request', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the defined position', '[True]', 'equals', 'no', 2)], ['','','','','(1 and 2)'], "-  after the defined position equals [True] ,   the sailing request shall be equaled [True],  before the defined position equals [True] ,       .").
+
+inReq([inComp(actCondScope, 'the NoSailing requests', '[True]', 'equals', 'no', 1), inComp(act, 'the sailing request', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the NoSailing requests', '[True]', 'equals', 'no', 2)], ['','','','','(1 and 2)'], "-  before the NoSailing requests equals [True] ,   the sailing request shall be equaled [True],  after the NoSailing requests equals [True] ,      .").
+
+inReq([inComp(actCondScope, 'the IDC inhibitor', '[True]', 'equals', 'no', 1), inComp(act, 'the steering wheel angle', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the vehicle speed setpoint', '[True]', 'equals', 'no', 2)], ['','','','','(1 and 2)'], "-  before the IDC inhibitor equals [True] ,   the steering wheel angle shall be equaled [True],  before the vehicle speed setpoint equals [True] ,      .").
+
+inReq([inComp(act, 'the IDC inhibitor', '[True]', 'shall be equaled', 'no', 1), inComp(cond, 'the IDC inhibitor', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   if the IDC inhibitor shall be equaled [True],    the IDC inhibitor shall be equaled [True],    .").
+
+inReq([inComp(actCondScope, 'the defined position', '[True]', 'equals', 'no', 1), inComp(act, 'the sailing inhibitor', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the sailing inhibitor', '[True]', 'equals', 'no', 2)], ['','','','','(1 and 2)'], "-  before the defined position equals [True] ,    the sailing inhibitor shall be equaled [False],   before the sailing inhibitor shall be equaled [True],       .").
+
+inReq([inComp(act, 'the defined position', '[True]', 'shall be equaled', 'no', 1), inComp(cond, 'the defined position', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   if the defined position shall be equaled [True],    the defined position shall be equaled [True],    .").
+
+inReq([inComp(actCondScope, 'the brake fault state', '[True]', 'equals', 'no', 1), inComp(act, 'the engine error', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the sailing inhibitor', '[True]', 'equals', 'no', 2)], ['','','','','(1 and 2)'], "-  after the brake fault state equals [True] ,    the engine error shall be equaled [True],    after the sailing inhibitor equals [True] ,    .").
+
+inReq([inComp(act, 'the brake fault state', '[True]', 'shall be equaled', 'no', 1), inComp(cond, 'the brake fault state', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   if the brake fault state shall be equaled [True],    the brake fault state shall be equaled [True],    .").
+
+inReq([inComp(actCondScope, 'the sailing inhibitor', '[True]', 'equals', 'no', 1), inComp(act, 'the IDC inhibitor', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the steering wheel angle', '[True]', 'equals', 'no', 2)], ['','','','','(1 and 2)'], "-  after the sailing inhibitor equals [True] ,    the IDC inhibitor shall be equaled [True],  after the steering wheel angle equals [True] ,        .").
+
+inReq([inComp(act, 'the sailing inhibitor', '[True]', 'shall be equaled', 'no', 1), inComp(cond, 'the sailing inhibitor', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   if the sailing inhibitor shall be equaled [True],    the sailing inhibitor shall be equaled [True],    .").
+
+inReq([inComp(actCondScope, 'the brake pedal', '[True]', 'equals', 'no', 1), inComp(act, 'the IDC inhibitor', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the vehicle speed quality factor', '[True]', 'equals', 'no', 2)], ['','','','','(1 and 2)'], "-  before the brake pedal equals [True] ,   the IDC inhibitor shall be equaled [True],  after the vehicle speed quality factor equals [True] ,        .").
+
+inReq([inComp(act, 'the brake pedal', '[True]', 'shall be equaled', 'no', 1), inComp(cond, 'the brake pedal', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   if the brake pedal shall be equaled [True],    the brake pedal shall be equaled [True],    .").
+
+inReq([inComp(actCondScope, 'the sailing request', '[True]', 'equals', 'no', 1), inComp(act, 'the vehicle speed setpoint', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the sailing inhibitor', '[True]', 'equals', 'no', 2)], ['','','','','(1 and 2)'], "-  before the sailing request equals [True] ,    the vehicle speed setpoint shall be equaled [True],   after the sailing inhibitor equals [True] ,        .").
+
+inReq([inComp(act, 'the sailing request', '[True]', 'shall be equaled', 'no', 1), inComp(cond, 'the sailing request', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   if the sailing request shall be equaled [True],    the sailing request shall be equaled [True],    .").
+
+inReq([inComp(actCondScope, 'the NoSailing requests', '[True]', 'equals', 'no', 1), inComp(act, 'the vehicle speed quality factor', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the steering wheel angle', '[True]', 'equals', 'no', 2)], ['','','','','(1 and 2)'], "-  after the NoSailing requests equals [True] ,   the vehicle speed quality factor shall be equaled [True],   before the steering wheel angle equals [True] ,        .").
+
+inReq([inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1), inComp(cond, 'the steering wheel angle', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   if the steering wheel angle equals [True],    the NoSailing requests shall be equaled [True],    .").
+
+inReq([inComp(actCondScope, 'the brake pedal', '[True]', 'equals', 'no', 1), inComp(act, 'the defined position', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the engine error', '[True]', 'equals', 'no', 2)], ['','','','','(1 and 2)'], "-  after the brake pedal equals [True] ,  the defined position shall be equaled [True],  before the engine error equals [True] ,     .").
+
+inReq([inComp(act, 'the brake pedal', '[True]', 'shall be equaled', 'no', 1), inComp(cond, 'the brake pedal', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   if the brake pedal shall be equaled [True],    the brake pedal shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the brake pedal', '[True]', 'equals', 'no', 1), inComp(preCondScope, 'the sailing request', '[True]', 'equals', 'no', 1), inComp(act, 'the vehicle speed setpoint', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  before the sailing request equals [True] ,    if the brake pedal equals [True] ,    the vehicle speed setpoint shall be equaled [True],    .").
+inReq([inComp(act, 'the brake pedal', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the sailing request', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   after the sailing request equals [True] ,    the brake pedal shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the sailing request', '[True]', 'equals', 'no', 1), inComp(preCondScope, 'the vehicle speed setpoint', '[True]', 'equals', 'no', 1), inComp(act, 'the brake fault state', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  before the vehicle speed setpoint equals [True] ,    if the sailing request equals [True] ,    the brake fault state shall be equaled [True],    .").
+
+inReq([inComp(act, 'the sailing request', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the vehicle speed setpoint', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   after the vehicle speed setpoint equals [True] ,    the sailing request shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the sailing request', '[True]', 'equals', 'no', 1), inComp(preCondScope, 'the engine error', '[True]', 'equals', 'no', 1), inComp(act, 'the LSC', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  after the engine error equals [True] ,    if the sailing request equals [True] ,    the LSC shall be equaled [True],    .").
+
+inReq([inComp(act, 'the sailing request', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the engine error', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   before the engine error equals [True] ,    the sailing request shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the sailing termination', '[True]', 'equals', 'no', 1), inComp(preCondScope, 'the sailing request', '[True]', 'equals', 'no', 1), inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  after the sailing request equals [True] ,    if the sailing termination equals [True] ,    the NoSailing requests shall be equaled [True],    .").
+
+inReq([inComp(act, 'the sailing termination', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the sailing request', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   before the sailing request equals [True] ,    the sailing termination shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the LSC', '[True]', 'equals', 'no', 1), inComp(preCondScope, 'the steering wheel angle', '[True]', 'equals', 'no', 1), inComp(act, 'the IDC inhibitor', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  after the steering wheel angle equals [True] ,    if the LSC equals [True] ,    the IDC inhibitor shall be equaled [True],    .").
+
+inReq([inComp(act, 'the LSC', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the steering wheel angle', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   after the steering wheel angle equals [True] ,    the LSC shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the standstill request flag', '[True]', 'equals', 'no', 1), inComp(preCondScope, 'the sailing request', '[True]', 'equals', 'no', 1), inComp(act, 'the LSC', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  after the sailing request equals [True] ,    if the standstill request flag equals [True] ,    the LSC shall be equaled [True],    .").
+
+inReq([inComp(act, 'the standstill request flag', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the sailing request', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   after the sailing request equals [True] ,    the standstill request flag shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the IDC inhibitor', '[True]', 'equals', 'no', 1), inComp(preCondScope, 'the sailing request', '[True]', 'equals', 'no', 1), inComp(act, 'the transmission error', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  before the sailing request equals [True] ,    if the IDC inhibitor equals [True] ,    the transmission error shall be equaled [True],    .").
+
+inReq([inComp(act, 'the IDC inhibitor', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the sailing request', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   before the sailing request equals [True] ,    the IDC inhibitor shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the quality signal', '[True]', 'equals', 'no', 1), inComp(preCondScope, 'the standstill request flag', '[True]', 'equals', 'no', 1), inComp(act, 'the vehicle speed setpoint', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  before the standstill request flag equals [True] ,    if the quality signal equals [True] ,    the vehicle speed setpoint shall be equaled [True],    .").
+
+inReq([inComp(act, 'the quality signal', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the standstill request flag', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   before the standstill request flag equals [True] ,    the quality signal shall be equaled [True],    .").
+
+inReq([inComp(act, 'the brake pedal', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the standstill request flag', '[True]', 'equals', 'no', 1)], ['','','','',''], "-  after the standstill request flag equals [True] ,     the brake pedal shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the brake pedal', '[True]', 'equals', 'no', 1), inComp(actCondScope, 'the sailing request', '[True]', 'equals', 'no', 1), inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-    if the brake pedal equals [True] ,    the NoSailing requests shall be equaled [True],  before the sailing request equals [True] ,     .").
+
+inReq([inComp(cond, 'the sailing request', '[True]', 'equals', 'no', 1), inComp(act, 'the standstill request flag', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-   if the sailing request equals [True] ,    the standstill request flag shall be equaled [True],    .").
+
+inReq([inComp(act, 'the brake pedal', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the IDC inhibitor', '[True]', 'equals', 'no', 1)], ['','','','',''], "-  after the IDC inhibitor equals [True] ,     the brake pedal shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the brake pedal', '[True]', 'equals', 'no', 1), inComp(actCondScope, 'the sailing termination', '[True]', 'equals', 'no', 1), inComp(act, 'the sailing inhibitor', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  if the brake pedal equals [True] ,    the sailing inhibitor shall be equaled [True],  before the sailing termination equals [True] ,      .").
+
+inReq([inComp(cond, 'the sailing termination', '[True]', 'equals', 'no', 1), inComp(act, 'the IDC inhibitor', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-   if the sailing termination equals [True] ,    the IDC inhibitor shall be equaled [True],    .").
+
+inReq([inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the sailing request', '[True]', 'equals', 'no', 1)], ['','','','',''], "-  before the sailing request equals [True] ,     the NoSailing requests shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the NoSailing requests', '[True]', 'equals', 'no', 1), inComp(actCondScope, 'the engine error', '[True]', 'equals', 'no', 1), inComp(act, 'the standstill request flag', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  if the NoSailing requests equals [True] ,    the standstill request flag shall be equaled [True],   after the engine error equals [True] ,     .").
+
+inReq([inComp(cond, 'the engine error', '[True]', 'equals', 'no', 1), inComp(act, 'the sailing request', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-   if the engine error equals [True] ,    the sailing request shall be equaled [True],    .").
+
+inReq([inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the NoSailing requests', '[True]', 'equals', 'no', 1)], ['','','','',''], "-  before the NoSailing requests shall be equaled [True],     the NoSailing requests shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the NoSailing requests', '[True]', 'equals', 'no', 1), inComp(actCondScope, 'the LSC', '[True]', 'equals', 'no', 1), inComp(act, 'the brake pedal', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  if the NoSailing requests equals [True] ,    the brake pedal shall be equaled [True],  after the LSC equals [True] ,      .").
+
+inReq([inComp(cond, 'the LSC', '[True]', 'equals', 'no', 1), inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-   if the LSC equals [True] ,    the NoSailing requests shall be equaled [True],    .").
+
+inReq([inComp(act, 'the engine error', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the NoSailing requests', '[True]', 'equals', 'no', 1)], ['','','','',''], "-  after the NoSailing requests equals [True] ,     the engine error shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the engine error', '[True]', 'equals', 'no', 1), inComp(actCondScope, 'the transmission error', '[True]', 'equals', 'no', 1), inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  if the engine error equals [True] ,    the NoSailing requests shall be equaled [True],  after the transmission error equals [True] ,      .").
+
+inReq([inComp(cond, 'the transmission error', '[True]', 'equals', 'no', 1), inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-   if the transmission error equals [True] ,    the NoSailing requests shall be equaled [True],    .").
+
+inReq([inComp(act, 'the steering wheel angle', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the quality signal', '[True]', 'equals', 'no', 1)], ['','','','',''], "-  after the quality signal equals [True] ,     the steering wheel angle shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the steering wheel angle', '[True]', 'equals', 'no', 1), inComp(actCondScope, 'the sailing inhibitor', '[True]', 'equals', 'no', 1), inComp(act, 'the sailing termination', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  if the steering wheel angle equals [True] ,    the sailing termination shall be equaled [True],   after the sailing inhibitor equals [True] ,     .").
+
+inReq([inComp(cond, 'the sailing inhibitor', '[True]', 'equals', 'no', 1), inComp(act, 'the quality signal', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-   if the sailing inhibitor equals [True] ,    the quality signal shall be equaled [True],    .").
+
+inReq([inComp(act, 'the vehicle speed quality factor', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the sailing inhibitor', '[True]', 'equals', 'no', 1)], ['','','','',''], "-  before the sailing inhibitor equals [True] ,     the vehicle speed quality factor shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the vehicle speed quality factor', '[True]', 'equals', 'no', 1), inComp(actCondScope, 'the transmission error', '[True]', 'equals', 'no', 1), inComp(act, 'the brake fault state', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  if the vehicle speed quality factor equals [True] ,    the brake fault state shall be equaled [True],  before the transmission error equals [True] ,      .").
+
+inReq([inComp(cond, 'the transmission error', '[True]', 'equals', 'no', 1), inComp(act, 'the sailing inhibitor', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-   if the transmission error equals [True] ,    the sailing inhibitor shall be equaled [True],    .").
+
+inReq([inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the standstill request flag', '[True]', 'equals', 'no', 1)], ['','','','',''], "-  before the standstill request flag equals [True] ,     the NoSailing requests shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the NoSailing requests', '[True]', 'equals', 'no', 1), inComp(actCondScope, 'the standstill request flag', '[False]', 'equals', 'no', 1), inComp(act, 'the sailing inhibitor', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  if the NoSailing requests equals [True] ,    the sailing inhibitor shall be equaled [True], before the standstill request flag equals [False] ,       .").
+
+inReq([inComp(cond, 'the standstill request flag', '[True]', 'equals', 'no', 1), inComp(act, 'the standstill request flag', '[False]', 'shall be equaled', 'no', 1)], ['','','','',''], "-   if the standstill request flag equals [True] ,    the standstill request flag equals [False] ,    .").
+
+

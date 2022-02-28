@@ -1,0 +1,5 @@
+inReq([inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the sailing request', '[True]', 'equals', 'no', 1)], ['','','','',''], "-  before the sailing request equals [True] ,     the NoSailing requests shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the NoSailing requests', '[True]', 'equals', 'no', 1), inComp(actCondScope, 'the engine error', '[True]', 'equals', 'no', 1), inComp(act, 'the standstill request flag', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  if the NoSailing requests equals [True] ,    the standstill request flag shall be equaled [True],   after the engine error equals [True] ,     .").
+
+inReq([inComp(cond, 'the engine error', '[True]', 'equals', 'no', 1), inComp(act, 'the sailing request', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-   if the engine error equals [True] ,    the sailing request shall be equaled [True],    .").

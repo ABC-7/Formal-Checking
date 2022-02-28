@@ -1,0 +1,3 @@
+inReq([inComp(actCondScope, 'the brake fault state', '[True]', 'equals', no, 1, []), inComp(act, 'the vehicle speed quality factor', '[True]', 'shall be equaled', no, 1, [subComp('vt', 2, '','seconds')])], ['','','','',''], "-   after the brake fault state equals [True] ,    the vehicle speed quality factor shall be equaled [True],    .").
+
+inReq([inComp(actCondScope, 'the vehicle speed quality factor', '[True]', 'equals', no, 1, [subComp('vt', 3, 'more than','seconds')]), inComp(act, 'the standstill request flag', '[True]', 'shall be equaled', no, 1, [])], ['','','','',''], "-   after the vehicle speed quality factor equals [True] for more than 3 seconds,    the standstill request flag shall be equaled [True],    .").

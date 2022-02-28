@@ -1,0 +1,5 @@
+inReq([inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the NoSailing requests', '[True]', 'equals', 'no', 1)], ['','','','',''], "-  before the NoSailing requests shall be equaled [True],     the NoSailing requests shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the NoSailing requests', '[True]', 'equals', 'no', 1), inComp(actCondScope, 'the LSC', '[True]', 'equals', 'no', 1), inComp(act, 'the brake pedal', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  if the NoSailing requests equals [True] ,    the brake pedal shall be equaled [True],  after the LSC equals [True] ,      .").
+
+inReq([inComp(cond, 'the LSC', '[True]', 'equals', 'no', 1), inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-   if the LSC equals [True] ,    the NoSailing requests shall be equaled [True],    .").

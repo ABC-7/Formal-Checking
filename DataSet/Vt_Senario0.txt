@@ -1,0 +1,48 @@
+inReq([inComp(cond, 'the sailing inhibitor', '[True]', 'equals', no, 1, []), inComp(act, 'the steering wheel angle', '[True]', 'shall be equaled', no, 1, [subComp('vt', 2, '','seconds')])], ['','','','',''], "-   if the sailing inhibitor equals [True] ,    the steering wheel angle shall be equaled [True] for 2 seconds,    .").
+
+inReq([inComp(cond, 'the steering wheel angle', '[True]', 'equals', no, 1, [subComp('vt', 3, 'more than','seconds')]), inComp(act, 'the brake fault state', '[True]', 'shall be equaled', no, 1, [])], ['','','','',''], "-   if the steering wheel angle equals [True] for more than 3 seconds,    the brake fault state shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the defined position', '[True]', 'equals', no, 1, []), inComp(act, 'the LSC', '[True]', 'shall be equaled', no, 1, [subComp('vt', 2, '','seconds')])], ['','','','',''], "-   if the defined position equals [True] ,    the LSC shall be equaled [True] for 2 seconds,    .").
+
+inReq([inComp(cond, 'the LSC', '[True]', 'equals', no, 1, [subComp('vt', 3, 'more than','seconds')]), inComp(act, 'the standstill request flag', '[True]', 'shall be equaled', no, 1, [])], ['','','','',''], "-   if the LSC equals [True] for more than 3 seconds,    the standstill request flag shall be equaled [True],    .").
+
+inReq([inComp(trig, 'the steering wheel angle', '[True]', 'equals', no, 1, []), inComp(act, 'the defined position', '[True]', 'shall be equaled', no, 1, [subComp('vt', 2, '','seconds')])], ['','','','',''], "-  when the steering wheel angle equals [True] ,     the defined position shall be equaled [True] for 2 seconds,    .").
+
+inReq([inComp(trig, 'the defined position', '[True]', 'equals', no, 1, [subComp('vt', 3, 'more than','seconds')]), inComp(act, 'the quality signal', '[True]', 'shall be equaled', no, 1, [])], ['','','','',''], "-  when the defined position equals [True] for more than 3 seconds,     the quality signal shall be equaled [True],    .").
+
+inReq([inComp(trig, 'the brake fault state', '[True]', 'equals', no, 1, []), inComp(act, 'the transmission error', '[True]', 'shall be equaled', no, 1, [subComp('vt', 2, '','seconds')])], ['','','','',''], "-  when the brake fault state equals [True] ,     the transmission error shall be equaled [True] for 2 seconds,    .").
+
+inReq([inComp(trig, 'the transmission error', '[True]', 'equals', no, 1, [subComp('vt', 3, 'more than','seconds')]), inComp(act, 'the engine error', '[True]', 'shall be equaled', no, 1, [])], ['','','','',''], "-  when the transmission error equals [True] for more than 3 seconds ,     the engine error shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the standstill request flag', '[True]', 'equals', no, 1, []), inComp(act, 'the quality signal', '[True]', 'shall be equaled', no, 1, [subComp('vt', 2, '','seconds')])], ['','','','',''], "-   if the standstill request flag equals [True] ,    the quality signal shall be equaled [True] for 2 seconds,    .").
+
+inReq([inComp(actCondScope, 'the quality signal', '[True]', 'equals', no, 1, [subComp('vt', 3, 'more than','seconds')]), inComp(act, 'the brake pedal', '[True]', 'shall be equaled', no, 1, [])], ['','','','',''], "-   before the quality signal equals [True] for more than 3 seconds,    the brake pedal shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the brake fault state', '[True]', 'equals', no, 1, []), inComp(act, 'the vehicle speed quality factor', '[True]', 'shall be equaled', no, 1, [subComp('vt', 2, '','seconds')])], ['','','','',''], "-   if the brake fault state equals [True] ,    the vehicle speed quality factor shall be equaled [True]for 2 seconds,    .").
+
+inReq([inComp(actCondScope, 'the vehicle speed quality factor', '[True]', 'equals', no, 1, [subComp('vt', 3, 'more than','seconds')]), inComp(act, 'the standstill request flag', '[True]', 'shall be equaled', no, 1, [])], ['','','','',''], "-   before the vehicle speed quality factor equals [True] for more than 3 seconds,    the standstill request flag shall be equaled [True],    .").
+
+inReq([inComp(actCondScope, 'the standstill request flag', '[True]', 'equals', no, 1, []), inComp(act, 'the quality signal', '[True]', 'shall be equaled', no, 1, [subComp('vt', 2, '','seconds')])], ['','','','',''], "-   after the standstill request flag equals [True] ,    the quality signal shall be equaled [True] for 2 seconds,    .").
+
+inReq([inComp(actCondScope, 'the quality signal', '[True]', 'equals', no, 1, [subComp('vt', 3, 'more than','seconds')]), inComp(act, 'the brake pedal', '[True]', 'shall be equaled', no, 1, [])], ['','','','',''], "-   after the quality signal equals [True] for more than 3 seconds,    the brake pedal shall be equaled [True],    .").
+
+inReq([inComp(actCondScope, 'the brake fault state', '[True]', 'equals', no, 1, []), inComp(act, 'the vehicle speed quality factor', '[True]', 'shall be equaled', no, 1, [subComp('vt', 2, '','seconds')])], ['','','','',''], "-   after the brake fault state equals [True] ,    the vehicle speed quality factor shall be equaled [True]for 2 seconds,    .").
+
+inReq([inComp(actCondScope, 'the vehicle speed quality factor', '[True]', 'equals', no, 1, [subComp('vt', 3, 'more than','seconds')]), inComp(act, 'the standstill request flag', '[True]', 'shall be equaled', no, 1, [])], ['','','','',''], "-   after the vehicle speed quality factor equals [True] for more than 3 seconds,    the standstill request flag shall be equaled [True],    .").
+
+inReq([inComp(preCondScope, 'the NoSailing requests', '[True]', 'equals', no, 1, []), inComp(cond, 'the IDC inhibitor', '[True]', 'equals', no, 1, []), inComp(act, 'the engine error', '[True]', 'shall be equaled', no, 1, [subComp('vt', 2, '','seconds')])], ['','','','',''], "-  After the NoSailing requests equals [True] ,    if the IDC inhibitor equals [True] ,    the engine error shall be equaled [True]for 2 seconds,    .").
+
+inReq([inComp(preCondScope, 'the engine error', '[True]', 'equals', no, 1, [subComp('vt', 3, 'more than','seconds')]), inComp(cond, 'the brake pedal', '[True]', 'equals', no, 1, []), inComp(act, 'the steering wheel angle', '[True]', 'shall be equaled', no, 1, [])], ['','','','',''], "-  After the engine error equals [True] for more than 3 seconds,    if the brake pedal equals [True] ,    the steering wheel angle shall be equaled [True],    .").
+
+inReq([inComp(preCondScope, 'the vehicle speed setpoint', '[False]', 'equals', no, 1, []), inComp(cond, 'the sailing inhibitor', '[True]', 'equals', no, 1, []), inComp(act, 'the vehicle speed setpoint', '[True]', 'shall be equaled', no, 1, [subComp('vt', 2, '','seconds')] )], ['','','','',''], "-  After the vehicle speed setpoint equals [False] ,    if the sailing inhibitor equals [True] ,    the vehicle speed setpoint equals [True] for 2 seconds,    .").
+
+inReq([inComp(preCondScope, 'the vehicle speed setpoint', '[True]', 'equals', no, 1, [subComp('vt', 3, 'more than','seconds')]), inComp(cond, 'the brake pedal', '[True]', 'equals', no, 1, []), inComp(act, 'the steering wheel angle', '[True]', 'shall be equaled', no, 1, [])], ['','','','',''], "-  After the vehicle speed setpoint equals [True] for more than 3 seconds,    if the brake pedal equals [True] ,    the steering wheel angle shall be equaled [True],    .").
+
+inReq([inComp(trig, 'the NoSailing requests', '[True]', 'equals', no, 1, []), inComp(cond, 'the IDC inhibitor', '[True]', 'equals', no, 1, []), inComp(act, 'the engine error', '[True]', 'shall be equaled', no, 1, [subComp('vt', 2, '','seconds')])], ['','','','',''], "-  when the NoSailing requests equals [True] ,    if the IDC inhibitor equals [True] ,    the engine error shall be equaled [True]for 2 seconds,    .").
+
+inReq([inComp(preCondScope, 'the engine error', '[True]', 'equals', no, 1, [subComp('vt', 3, 'more than','seconds')]), inComp(cond, 'the brake pedal', '[True]', 'equals', no, 1, []), inComp(act, 'the steering wheel angle', '[True]', 'shall be equaled', no, 1, [])], ['','','','',''], "-  before the engine error equals [True] for more than 3 seconds,    if the brake pedal equals [True] ,    the steering wheel angle shall be equaled [True],    .").
+
+inReq([inComp(trig, 'the vehicle speed setpoint', '[True]', 'equals', no, 1, []), inComp(cond, 'the sailing inhibitor', '[True]', 'equals', no, 1, []), inComp(act, 'the vehicle speed setpoint', '[True]', 'shall be equaled', no, 1, [subComp('vt', 2, '','seconds')] )], ['','','','',''], "-  when the vehicle speed setpoint equals [True] ,    if the sailing inhibitor equals [True] ,    the vehicle speed setpoint equals [True] for 2 seconds,    .").
+
+inReq([inComp(preCondScope, 'the vehicle speed setpoint', '[True]', 'equals', no, 1, [subComp('vt', 3, 'more than','seconds')]), inComp(cond, 'the brake pedal', '[True]', 'equals', no, 1, []), inComp(act, 'the steering wheel angle', '[True]', 'shall be equaled', no, 1, [])], ['','','','',''], "-  before the vehicle speed setpoint equals [True] for more than 3 seconds,    if the brake pedal equals [True] ,    the steering wheel angle shall be equaled [True],    .").
+

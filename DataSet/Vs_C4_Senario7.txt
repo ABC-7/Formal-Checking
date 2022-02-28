@@ -1,0 +1,5 @@
+inReq([inComp(act, 'the vehicle speed quality factor', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the sailing inhibitor', '[True]', 'equals', 'no', 1)], ['','','','',''], "-  before the sailing inhibitor equals [True] ,     the vehicle speed quality factor shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the vehicle speed quality factor', '[True]', 'equals', 'no', 1), inComp(actCondScope, 'the transmission error', '[True]', 'equals', 'no', 1), inComp(act, 'the brake fault state', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  if the vehicle speed quality factor equals [True] ,    the brake fault state shall be equaled [True],  before the transmission error equals [True] ,      .").
+
+inReq([inComp(cond, 'the transmission error', '[True]', 'equals', 'no', 1), inComp(act, 'the sailing inhibitor', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-   if the transmission error equals [True] ,    the sailing inhibitor shall be equaled [True],    .").

@@ -1,0 +1,5 @@
+inReq([inComp(act, 'the brake pedal', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the standstill request flag', '[True]', 'equals', 'no', 1)], ['','','','',''], "-  after the standstill request flag equals [True] ,     the brake pedal shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the brake pedal', '[True]', 'equals', 'no', 1), inComp(actCondScope, 'the sailing request', '[True]', 'equals', 'no', 1), inComp(act, 'the NoSailing requests', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-    if the brake pedal equals [True] ,    the NoSailing requests shall be equaled [True],  before the sailing request equals [True] ,     .").
+
+inReq([inComp(cond, 'the sailing request', '[True]', 'equals', 'no', 1), inComp(act, 'the standstill request flag', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-   if the sailing request equals [True] ,    the standstill request flag shall be equaled [True],    .").

@@ -1,0 +1,5 @@
+inReq([inComp(act, 'the brake pedal', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the IDC inhibitor', '[True]', 'equals', 'no', 1)], ['','','','',''], "-  after the IDC inhibitor equals [True] ,     the brake pedal shall be equaled [True],    .").
+
+inReq([inComp(cond, 'the brake pedal', '[True]', 'equals', 'no', 1), inComp(actCondScope, 'the sailing termination', '[True]', 'equals', 'no', 1), inComp(act, 'the sailing inhibitor', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-  if the brake pedal equals [True] ,    the sailing inhibitor shall be equaled [True],  before the sailing termination equals [True] ,      .").
+
+inReq([inComp(cond, 'the sailing termination', '[True]', 'equals', 'no', 1), inComp(act, 'the IDC inhibitor', '[True]', 'shall be equaled', 'no', 1)], ['','','','',''], "-   if the sailing termination equals [True] ,    the IDC inhibitor shall be equaled [True],    .").

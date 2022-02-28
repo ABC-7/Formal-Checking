@@ -1,0 +1,3 @@
+inReq([inComp(actCondScope, 'the brake pedal', '[True]', 'equals', 'no', 1), inComp(act, 'the defined position', '[True]', 'shall be equaled', 'no', 1), inComp(actCondScope, 'the engine error', '[True]', 'equals', 'no', 2)], ['','','','','(1 and 2)'], "-  after the brake pedal equals [True] ,  the defined position shall be equaled [True],  before the engine error equals [True] ,     .").
+
+inReq([inComp(act, 'the brake pedal', '[True]', 'shall be equaled', 'no', 1), inComp(cond, 'the brake pedal', '[True]', 'equals', 'no', 1)], ['','','','',''], "-   if the brake pedal shall be equaled [True],    the brake pedal shall be equaled [True],    .").

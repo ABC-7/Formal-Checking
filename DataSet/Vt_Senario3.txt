@@ -1,0 +1,3 @@
+inReq([inComp(trig, 'the steering wheel angle', '[True]', 'equals', no, 1, []), inComp(act, 'the defined position', '[True]', 'shall be equaled', no, 1, [subComp('vt', 2, '','seconds')])], ['','','','',''], "-  when the steering wheel angle equals [True] ,     the defined position shall be equaled [True] for 2 seconds,    .").
+
+inReq([inComp(trig, 'the defined position', '[True]', 'equals', no, 1, [subComp('vt', 3, 'more than','seconds')]), inComp(act, 'the quality signal', '[True]', 'shall be equaled', no, 1, [])], ['','','','',''], "-  when the defined position equals [True] for more than 3 seconds,     the quality signal shall be equaled [True],    .").
